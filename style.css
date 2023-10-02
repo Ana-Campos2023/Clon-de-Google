@@ -1,0 +1,107 @@
+*{
+    color: rgb(112, 133, 138);
+}
+body{
+    margin: none;
+ 
+ 
+}
+header{
+font-family: sans-serif;
+font-size: 14px;
+text-align: end;
+}
+header ul li{ 
+    display: inline-block;
+    vertical-align: middle;
+    margin:  1px 10px;
+}
+
+#iapps{
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+#fotoDePerfil{
+    vertical-align: middle;
+    border-radius: 50%;
+    padding-bottom: 0%;
+    width: 48px;
+    height: 48px;
+}
+
+
+
+
+
+
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-bottom: 150px;
+}   
+#google{
+    margin: 20px;
+}
+main section article:nth-child(1){
+    padding: 8px;
+    width: 600px;
+    height: 25%;
+    border: rgb(177, 189, 192) 1px solid;
+    display: flex;  /*LOS ELEMENTOS ESTEN EN UNA MISMA LINEA*/
+    /*SE SELECCIONA SOLO LOS ELEMENTOS EN MAIN*/
+    border-radius: 20px;
+    align-self: center;
+}
+input{
+    
+    width: 90%;
+    border: none;
+}
+.icon-buscador{
+  
+    width: 24px;
+    height: 24px
+    }
+main section article:nth-child(2){ padding-left: 120px;} /*SELECCIONA BOTONES*/
+main section article button{
+    
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 30px;
+    border: 0px;
+    margin: 30px 5px;
+    color: rgb(92, 92, 92);
+    background-color: rgb(242, 242, 242);
+}
+
+.pie{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(242, 242, 242);
+    border:none;
+    margin:none;
+
+}
+footer section:first-child{
+  
+    border-bottom: black 1px solid;
+
+}
+footer ul li { 
+/*AQUI SE ABARCA TODO EL FOTTER COMPUESTO POR UL Y LI*/
+   font-size: 14px;
+   display: inline;
+   margin: 3px 10px;
+
+}
+
+footer section:nth-child(2) ul:nth-child(2){
+text-align: right;
+
+}
+
