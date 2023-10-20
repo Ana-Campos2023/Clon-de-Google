@@ -31,12 +31,6 @@ header ul li{
     height: 48px;
 }
 
-
-
-
-
-
-
 main{
     display:flex;
     flex-direction: column;
@@ -85,11 +79,13 @@ main section article button{
     background-color: rgb(242, 242, 242);
     border:none;
     margin:none;
+    width: 200vh;
 
 }
 footer section:first-child{
   
     border-bottom: black 1px solid;
+  
 
 }
 footer ul li { 
@@ -99,9 +95,16 @@ footer ul li {
    margin: 3px 10px;
 
 }
+footer section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 190vh;
+}
 
 footer section:nth-child(2) ul:nth-child(2){
 text-align: right;
-
+justify-content: end;
+width: 100vh;
 }
 
